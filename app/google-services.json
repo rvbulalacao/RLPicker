@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "953944244788",
+    "project_id": "rlpicker-app",
+    "storage_bucket": "rlpicker-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953944244788:android:a75e730ca867469df98061",
+        "android_client_info": {
+          "package_name": "com.barapido.rlpicker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953944244788-juvogq5bpfc12o7rsvlq63bvr8eqjob3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBPhStwLnb8de8lfbewD8tSKgiNP2Ru8w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953944244788-juvogq5bpfc12o7rsvlq63bvr8eqjob3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

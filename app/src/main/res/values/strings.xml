@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">RLPicker</string>
+    <string name="picker_app">Picker App</string>
+
+    <string-array name="roles_array">
+        <item>PICKER</item>
+        <item>POS</item>
+    </string-array>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+
+    <string name="picklist">Picklist</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_logout">Log Out</string>
+
+    <string name="scan">Scan</string>
+    <string name="ordered">Ordered</string>
+    <string name="picked">Picked</string>
+    <string name="confirm">Confirm</string>
+    <string name="confirmed">Confirmed</string>
+    <string name="cancel">Cancel</string>
+    <string name="finalize">Finalize</string>
+    <string name="print">Print</string>
+
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+</resources>

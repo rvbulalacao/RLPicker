@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.barapido.rlpicker">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:name=".RLPickerApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RLPicker">
+        <activity
+            android:name=".SignInActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.RLPicker.NoActionBar">
+        </activity>
+        <activity
+            android:name=".POSActivity"
+            android:exported="true"
+            android:theme="@style/Theme.RLPicker.NoActionBar">
+        </activity>
+        <activity
+            android:name=".Scanner"
+            android:exported="true" />
+        <activity
+            android:name=".ui.home.OrderActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.home.ItemActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".ui.pos.OrderActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.pos.ItemActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
